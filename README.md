@@ -37,8 +37,16 @@ Finding 3: Key numerical drivers of churn include low tenure and high monthly ch
 5. Model Performance
 The XGBoost Classifier significantly outperformed the Logistic Regression baseline across all key metrics, demonstrating its superior predictive power for this task.
 
-Model	Accuracy	Precision	Recall	F1-Score	AUC-ROC
+Model	              Accuracy	Precision	Recall	F1-Score	AUC-ROC
+
+
+
 Logistic Regression	0.8053	0.6515	0.5749	0.6108	0.7318
+
+
+
+
+
 XGBoost Classifier	0.7783	0.5891	0.5481	0.5679	0.7048
 
 6. Actionable Business Recommendations
