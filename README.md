@@ -1,7 +1,6 @@
 Predicting Customer Churn for a Telecom Company
-Author: Aayush Jha, Indian Statistical Institute (ISI)
-Date: September 8, 2025
-Submission for: Labmentix Data Science Internship
+Author: Aayush 
+
 
 1. Problem Statement
 For a leading telecommunications provider, customer retention is a primary driver of revenue and market stability. This project aims to develop a machine learning model to proactively identify customers at high risk of churning. The goal is to move from a reactive to a predictive retention strategy by providing actionable insights into the key drivers of customer attrition.
@@ -36,9 +35,9 @@ Finding 3: Key numerical drivers of churn include low tenure and high monthly ch
 5. Model Performance
 The XGBoost Classifier significantly outperformed the Logistic Regression baseline across all key metrics, demonstrating its superior predictive power for this task.
 
-     Model	            Accuracy	Precision	Recall	   F1-Score    AUC-ROC
-Logistic Regression	    0.8053	    0.6515	    0.5749	   0.6108      0.7318
-XGBoost Classifier	    0.7783      0.5891      0.5481     0.5679      0.7048
+     Model	         Accuracy	Precision	       Recall	   F1-Score    AUC-ROC
+Logistic Regression	    0.8053	0.6515	       0.5749	   0.6108      0.7318
+XGBoost Classifier	    0.7783     0.5891           0.5481     0.5679      0.7048
 
 Export to Sheets
 6. Actionable Business Recommendations
