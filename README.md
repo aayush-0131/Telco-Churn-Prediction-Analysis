@@ -30,7 +30,7 @@ Finding 1: Contract term is a major predictor of churn. Customers on month-to-mo
 
 Finding 2: Customers with Fiber Optic internet service are more likely to churn. This may indicate issues with service quality or pricing for this specific offering.
 
-![Churn by Internet Service](images/churn_by_internetservice.png)
+![Churn by Internet Service](churn_by_internetservice.png)
 
 
 Finding 3: Key numerical drivers of churn include low tenure and high monthly charges. The XGBoost model identified these as top predictors.
