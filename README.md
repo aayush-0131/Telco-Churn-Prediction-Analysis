@@ -80,4 +80,4 @@ The XGBoost Classifier significantly outperformed the Logistic Regression baseli
     pip install -r requirements.txt
     ```
 
-3.  Open and run the `Heart_Disease_Analysis.ipynb` Jupyter Notebook.
+3.  Open and run the `Customer_Churn_Analysis.ipynb` Jupyter Notebook.
