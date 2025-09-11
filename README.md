@@ -72,7 +72,7 @@ The XGBoost Classifier significantly outperformed the Logistic Regression baseli
 
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/aayush-0131/Heart-Disease-Prediction-Project.git]
+    git clone [https://github.com/aayush-0131/Telco-Churn-Prediction-Analysis.git]
     ```
 
 2.  Install the required dependencies:
