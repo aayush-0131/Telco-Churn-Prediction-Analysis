@@ -49,7 +49,7 @@ The project utilizes the "Telco Customer Churn" dataset from Kaggle, provided by
 -----------
 
 ### Model Performance
-The XGBoost Classifier significantly outperformed the Logistic Regression baseline across all key metrics, demonstrating its superior predictive power for this task.
+**Correction (documentation audit):** The reported table below shows that Logistic Regression scored higher than XGBoost on every listed metric. The previous statement that XGBoost outperformed Logistic Regression was incorrect. These numbers are as recorded in this repository and have not yet been independently reproduced from the notebook; do not present the comparison as a verified external benchmark.
 
 | Model                    | Accuracy | Precision (class 1) | Recall (class 1) | F1-Score (class 1) | AUC-ROC
 | ------------------------ | -------- | ------------------- | ---------------- | ------------------ |----------------
