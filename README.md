@@ -49,9 +49,10 @@ The project utilizes the "Telco Customer Churn" dataset from Kaggle, provided by
 -----------
 
 ### Model Performance
-**Corrected comparison:** The saved notebook outputs show Logistic Regression scored higher than XGBoost on every listed metric. Earlier README wording incorrectly claimed the reverse. These are historic notebook outputs, not an independently rerun benchmark. **Important:** the notebook computes its reported 'AUC-ROC' from hard predicted labels rather than probability scores, so those numbers are *not* the conventional score-based ROC-AUC. Recompute with \`predict_proba\` and revalidate before using AUC claims in a portfolio.
+**Corrected comparison:** The saved notebook outputs show Logistic Regression scored higher than XGBoost on every listed metric. Earlier README wording incorrectly claimed the reverse. These are historic notebook outputs, not an independently rerun benchmark. **Important:** the notebook computes its reported 'AUC-ROC' from hard predicted labels rather than probability scores, so those numbers are *not* the conventional score-based ROC-AUC. Recompute with `predict_proba` and revalidate before using AUC claims in a portfolio.
 
-| Model                    | Accuracy | Precision (class 1) | Recall (class 1) | F1-Score (class 1) | AUC on hard labels*\n| ------------------------ | -------- | ------------------- | ---------------- | ------------------ |----------------
+| Model                    | Accuracy | Precision (class 1) | Recall (class 1) | F1-Score (class 1) | AUC on hard labels* |
+| ------------------------ | -------- | ------------------- | ---------------- | ------------------ |----------------
 | Logistic Regression      | 0.8053   | 0.6515              | 0.5749           | 0.6108             |0.7318
 | XGBoost Classifier       | 0.7783   | 0.5891              | 0.5481           | 0.5679             |0.7048
 
